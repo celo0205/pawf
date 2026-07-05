@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="card">
+
+<h1>{{ post.title }}</h1>
+
+<p>
+<b>Penulis :</b> {{ post.author }}
+</p>
+
+<hr>
+
+<p>{{ post.body }}</p>
+
+<br>
+
+<a class="button" href="/">
+← Kembali ke Beranda
+</a>
+
+</div>
+
+{% endblock content %}

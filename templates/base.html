@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Portal Berita Matraman</title>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+</head>
+
+<body>
+
+<header>
+    <div class="navbar">
+        <h1>📰 Portal Berita Matraman</h1>
+        <p>Informasi Terkini Kecamatan Matraman</p>
+    </div>
+</header>
+
+<div class="container">
+    {% block content %}
+    {% endblock content %}
+</div>
+
+<footer>
+    © 2026 Portal Berita Matraman
+</footer>
+
+</body>
+</html>
