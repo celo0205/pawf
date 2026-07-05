@@ -16,7 +16,6 @@ Including another URLconf
 """
 
 from django.contrib import admin
-<<<<<<< HEAD
 from django.urls import include, path
 
 urlpatterns = [
@@ -24,10 +23,3 @@ urlpatterns = [
     path("", include("blog.urls")),
 ]
 
-=======
-from django.urls import path
-
-urlpatterns = [
-    path("admin/", admin.site.urls),
-]
->>>>>>> bb019054d42fc8b046d08404f9647a95c5557713

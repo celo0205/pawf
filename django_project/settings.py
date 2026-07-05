@@ -20,11 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/6.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-<<<<<<< HEAD
 SECRET_KEY = "django-insecure-n4v35a^$2*s6$qg180wgwo8-vzd*-kysjdtf1xu!j2ns_w(el*"
-=======
-SECRET_KEY = "django-insecure-=*h+p7g&-p-&4hvb_l2=6dvo%i^pj!x&tz!at18j_3jwsq=u4t"
->>>>>>> bb019054d42fc8b046d08404f9647a95c5557713
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -41,15 +37,10 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-<<<<<<< HEAD
     "blog",  # new
 ]
 
 
-=======
-]
-
->>>>>>> bb019054d42fc8b046d08404f9647a95c5557713
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
@@ -61,7 +52,6 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = "django_project.urls"
-<<<<<<< HEAD
  
 TEMPLATES = [
     {
@@ -73,19 +63,6 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-=======
-
-TEMPLATES = [
-    {
-        "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
-        "APP_DIRS": True,
-        "OPTIONS": {
-            "context_processors": [
-                "django.template.context_processors.request",
-                "django.contrib.auth.context_processors.auth",
-                "django.contrib.messages.context_processors.messages",
->>>>>>> bb019054d42fc8b046d08404f9647a95c5557713
             ],
         },
     },
@@ -139,10 +116,6 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
-<<<<<<< HEAD
 STATIC_URL = "/static/"  # update
 STATICFILES_DIRS = [BASE_DIR / "static"]  # add
 
-=======
-STATIC_URL = "static/"
->>>>>>> bb019054d42fc8b046d08404f9647a95c5557713
